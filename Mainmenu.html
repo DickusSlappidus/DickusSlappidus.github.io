@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@600&display=swap" rel="stylesheet">
+<style>
+    body{
+        overflow-x: hidden;
+    }
+#shinitai{
+   object-fit: contain;
+    position: fixed;
+    z-index: -100;
+    width: 120px;
+    height: 200px;
+    left:552px;
+    top: 30px;
+    display: block;
+    opacity: 0;
+}
+h1.to {
+font-family: 'Open Sans', sans-serif;
+margin: auto;
+text-align: center;
+bottom: -24px;
+right: 390px;
+z-index: 3;
+font-size: 100px;
+color: white;
+text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  position: relative;
+}
+h1.wo{
+font-family: 'Open Sans', sans-serif;
+margin: auto;
+text-align: center;
+bottom: -34px;
+right: 558px;
+z-index: 4;
+font-size: 80px;
+color: white;
+text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+ position: relative;
+}  
+
+h1.po {
+font-family: 'Open Sans', sans-serif;
+margin: auto;
+text-align: center;
+bottom: -16px;
+right: 367px;
+z-index: 4;
+font-size: 100px;
+color: white;
+text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+ position: relative;
+}
+ .mado {
+  position:  fixed;
+  width:1300px;
+  height:179px;
+  background-color: #ffd1dc;
+  opacity: 0.9;
+  right:0px;
+  bottom:565px;
+  z-index: 12;
+  overflow: hidden;
+}
+
+img.assraffytulfo{
+   position: relative;
+width: 1275px;
+  display: block;
+  height: 535px;
+  margin-left: -15px;
+  margin-right: auto;
+  margin-top: -352px;
+  z-index: -1;
+}
+
+ 
+ .wry{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px; 
+    postion: relative;
+    margin-bottom: 20px;
+ }
+ .pry {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 30px; 
+ }
+ img.woowoo{
+    position: fixed;
+    object-fit: contain;
+    height: 40px;
+    width: 55px;
+    position: fixed;
+    margin-left: -2px;
+    margin-top:  5px;
+    z-index: 14;
+    display: inline-block;
+ }
+ .cesus{
+    postion: fixed;
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+   margin-left: 40px;
+    margin-top:  135px;
+    z-index: 13; 
+    opacity: 1;
+ }
+.Siggy{
+    position: fixed;
+  height: 46px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+   margin-left: 0px;
+    margin-top:  0px;
+    opacity: 0;
+    z-index: 15;
+}
+.Siggy:hover{
+    opacity: 0.5;
+}
+#killme{
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background-color:#ffd1dc;
+    opacity: 1;
+    z-index: 100;
+    display: block;
+}
+#illusion{
+  left: 45%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@keyframes die{
+0%{}
+50%{transform: translate(588px,300px);}
+100%{transform: translate(545px,45px);
+     width: 150px; height: 150px;}
+}
+@keyframes dies{
+0%{}
+50%{height: 40px;
+    width: 55px;}
+100%{transform: translate(23px,10px);
+     width: 110px; height: 120px;}
+}
+@keyframes cbt{
+0%{display: block;}
+65%{z-index: 100; opacity: 1;}
+100%{transform: translate(0px,275px);
+    z-index: 100;
+    opacity: 1;
+width: 160px;
+    height: 240px;}
+}
+@keyframes wee{
+    0%{transform: translate(0px,275px);
+    z-index: 100;
+    opacity: 1;
+width: 160px;
+    height: 240px;}
+  95%{z-index: -100; opacity: 0;}
+  100%{transform: translate(0px,-275px);}
+}
+@keyframes eid{
+  0%{width: 150px; height: 150px;
+    transform: translate(545px,45px);} 
+  50%{width: 150px; height: 150px;
+     transform: translate(545px,45px);}
+    85%{transform: translate(545px,255px);}
+  100%{ transform: translate(0px,0px);
+  height: 50px;
+  width: 50px;
+}
+
+}
+@keyframes seid{
+  0%{  width: 110px; height: 120px;
+  transform: translate(23px,10px);}
+  50%{  width: 110px; height: 120px;
+  transform: translate(23px,10px);}
+  85%{ width: 110px; height: 120px;}
+ 100%{transform: translate(0px,0px);
+height: 40px;
+    width: 55px; }
+
+}
+@keyframes oop{
+   0%{opacity: 0.8; width: 100%;}
+   100%{opacity: 0;width: 0%;} 
+}
+.whip{
+     position: fixed;
+    object-fit: contain;
+    width: 40px;
+    height: 55px;
+   top: 0%;
+   z-index: 2000;
+   transform:translate(1260px,0px);
+}
+#extreme{
+    position: fixed;
+    z-index: -1000;
+    object-fit: contain;
+    width: 40px;
+    height: 55px;
+}
+#xtreme{
+  position: fixed;
+    z-index: -999;
+    object-fit: contain;
+    width: 40px;
+    height: 55px;
+    opacity: 0;
+}
+@keyframes poo{
+    0%{opacity: 0;width: 0%;}
+    100%{opacity: 0.8; width: 100%;}
+}
+@keyframes scat{
+    from{}
+    to{transform: translate(0px,0px);}
+}
+@keyframes tacs{
+    from{transform: translate(0px,0px);}
+    to{transform:translate(1260px,0px);}
+}
+@keyframes hide{
+    0%{overflow: visible;}
+    99.99%{overflow: visible;}
+    100%{overflow: hidden;}
+}
+#xtreme:hover{
+    opacity: 0.8;
+}
+@keyframes pee{
+    from{opacity: 1;}
+    to{opacity: 1;}
+}
+@keyframes black{
+    0%{z-index: 15;}
+    100%{z-index: -10000;}
+}
+@keyframes temp{
+    0%{z-index: -10000;}
+    100%{z-index: 15;}
+}
+</style>
+</head>
+<body>
+<div class="whip">
+<img id="extreme" src="http://drive.google.com/uc?export=view&id=1JptsVjJTLjleaj71QNriXrR4qI15sng7">
+<img id="xtreme" onclick="canjaw();" src="http://drive.google.com/uc?export=view&id=1DXNh6HbEvt3drFFFpbRPa4GxfwrgC4v0">
+</div>
+<div class="mado">
+<div class="cesus">
+<a href="http://localhost/transactionlist/Mainmenu.html">
+<img class="woowoo" src="http://drive.google.com/uc?export=view&id=1sSGc0VnL6sooGcjXLrOMpgEGMtmudit6">
+</a>
+<div class="Siggy" onclick="castrateme();"></div>
+</div>
+</div>
+<a href="http://localhost/transactionlist/index.html">
+<img id="shinitai" src="http://drive.google.com/uc?export=view&id=1ZquUDzVSzGApdGBjQAVwc3pGadSqQy_D">
+</a>
+<h1 class="wo">The</h1>
+<h1 class="po">Ateneocord</h1>
+<h1 class="to"> Economics</h1>
+<img class="assraffytulfo"src="http://drive.google.com/uc?export=view&id=14Nt3G2LvV0yP-pwsy6kd6c7VcH15S5el">
+<div class="wry">
+<h2>Hello there! fellow member of Ateneocord!!!</h2>
+</div>
+<div class="pry"><p>This site will be used for the follow purposes regarding Ateneocord economics: calculations for currency conversion/ FOREX, Tax calculations(soon to be added), list of policies and many more to come. To use the site, simply click on the ateneocord symbol found at the top left corner, and you shall be directed to a menu wherein you will be able to navigate the whole site.</p>
+</div>
+<audio id="jews">
+    <source src="http://drive.google.com/uc?export=view&id=1hj1-Jtn13qCtSyKUnc5_EpfqMaF_Hbjx" type="audio/mp3">
+</audio>
+<div id="killme">
+<button id="illusion" onclick="playAudio()" type="button"> Proceed to site</button>
+</div>
+</body>
+<script>
+var x = document.getElementById("jews"); 
+const cock = document.getElementsByClassName('cesus');
+const fuck = document.getElementsByClassName('mado');
+const cuck =document.getElementsByClassName('woowoo');
+const muck =document.getElementsByClassName('whip')
+const ball = document.getElementById('shinitai');
+const stuck=document.getElementsByClassName('pry');
+const sig=document.getElementsByClassName('Siggy');
+stuck[0].addEventListener("animationend",hijab);
+function playAudio() { 
+  x.play(); 
+  x.loop = true;
+ document.getElementById("illusion").style.display ="none";
+ document.getElementById("killme").style.width ="0";
+} 
+function castrateme(){
+ document.getElementById("killme").style.zIndex="8";
+ document.getElementById("killme").style.animation="poo 2050ms ease-in-out forwards";
+  fuck[0].style.overflow = "visible";
+  cock[0].style.zIndex="1000";
+  cock[0].style.animation= "die 1300ms ease-in-out forwards";
+  cuck[0].style.animation="dies 1300ms ease-in-out forwards";
+ document.getElementById("shinitai").style.animation="cbt 1300ms ease-in-out 1350ms forwards";
+ muck[0].style.animation="scat 2050ms ease-in-out forwards";
+ sig[0].style.animation="black 1300ms ease-in-out forwards";
+}
+function canjaw(){
+  document.getElementById("killme").style.animation="oop 2050ms ease-in-out forwards";
+  cuck[0].style.animation="seid 2600ms ease-in-out forwards";
+    cock[0].style.animation= "eid 2600ms ease-in-out  forwards";
+ document.getElementById("shinitai").style.animation="wee 1300ms ease-in-out forwards";
+ muck[0].style.animation="tacs 2050ms ease-in-out forwards";
+ stuck[0].style.animation="pee 2650ms ease-in-out forwards";
+ sig[0].style.animation="temp 2600ms ease-in-out forwards";
+ stuck[0].addEventListener("animationend",hijab);
+}
+
+ function hijab(){
+  fuck[0].style.overflow = "hidden";
+ }
+</script>
+</html>
